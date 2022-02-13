@@ -16,9 +16,10 @@ nav:
   - Sensors: https://ece-iot.github.io/esp-iot-framework/sensors/
   - AWS: https://ece-iot.github.io/aws-iot-framework/aws/cli/configuration-basics/
   - Alexa: https://ece-iot.github.io/aws-iot-framework/alexa/
+  - Hardware: https://ece-iot.github.io/hardware/
 
 
-repo_url: https://github.com/ECE-IoT/ECE-IoT.github.io
+repo_url: https://ece-iot.github.io
 
 theme:
   name: material
