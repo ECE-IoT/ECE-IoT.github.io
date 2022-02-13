@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Hide some OS X stuff
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# PIO related stuff
+.pioenvs
+.piolibdeps
+.pio
+
+# VSCODE related stuff
+**/.vscode/c_cpp_properties.json
+**/.vscode/launch.json
+
+# Globally used folders which should not be synched to GIT
+**/secrets
+**/data
+
+# does not need to be synched, just for mkdocs locally
+site/
