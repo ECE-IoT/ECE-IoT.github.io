@@ -2,7 +2,7 @@ site_name: ESP IoT Framework
 nav:
 
   - Home: 
-      Welcome: index.md
+      Introduction: index.md
       Setup:
         Getting Started: setup/setup.md
         Structure: setup/structure.md
