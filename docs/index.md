@@ -1,7 +1,6 @@
 # ESP IoT Framework
 
-This frameworks intention is to simplify the development of ESP32 IoT Devices, which interact with AWS Services. 
-The framework is complemented by the [AWS IoT Framework](https://github.com/ECE-IoT/aws-iot-framework)
+This frameworks intention is to simplify the development of ESP32 IoT Devices, which interact with AWS Services. In addition its intentions is to simplify the development of back-end applications based on AWS Lamda functions
 
 ## Motivation
 
@@ -19,4 +18,4 @@ This project can be accessed via the MIT License. Based upon this license the pr
 
 ## Getting started
 
-in order to get started with developing or using the code head over to [Setup](setup/setup.md)
+In order to get started with developing or using the code head over to [Setup for ESP development](setup/setup_esp.md) or [Setup for AWS development](setup/setup_aws.md)

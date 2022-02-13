@@ -14,11 +14,11 @@ nav:
         Documentation: setup/documentation.md
   - Core: https://ece-iot.github.io/esp-iot-framework/core/
   - Sensors: https://ece-iot.github.io/esp-iot-framework/sensors/
-  - AWS: https://ece-iot.github.io/aws-iot-framework/aws/
-  - Alexa: https://ece-iot.github.io/aws-iot-framework/alexa
+  - AWS: https://ece-iot.github.io/aws-iot-framework/aws/cli/configuration-basics/
+  - Alexa: https://ece-iot.github.io/aws-iot-framework/alexa/
 
 
-repo_url: https://github.com/ECE-IoT/esp-iot-framework
+repo_url: https://github.com/ECE-IoT/ECE-IoT.github.io
 
 theme:
   name: material
