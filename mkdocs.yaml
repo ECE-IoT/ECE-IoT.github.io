@@ -13,6 +13,7 @@ nav:
   - Core: https://ece-iot.github.io/esp-iot-framework/core/
   - Sensors: https://ece-iot.github.io/esp-iot-framework/sensors/
   - AWS: https://ece-iot.github.io/aws-iot-framework/aws/cli/configuration-basics/
+  - AWS: https://ece-iot.github.io/aws-iot-framework/alexa
 
 
 repo_url: https://github.com/ECE-IoT/esp-iot-framework
