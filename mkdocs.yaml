@@ -1,10 +1,12 @@
-site_name: ESP IoT Framework
+site_name: IoT Framework
 nav:
 
   - Home: 
       Introduction: index.md
       Setup:
-        Getting Started: setup/setup.md
+        Getting Started: 
+          ESP: setup/setup_esp.md
+          AWS: setup/setup_aws.md
         Structure: setup/structure.md
         Coding Style: 
           C++: setup/coding-style/cpp.md
@@ -12,7 +14,7 @@ nav:
         Documentation: setup/documentation.md
   - Core: https://ece-iot.github.io/esp-iot-framework/core/
   - Sensors: https://ece-iot.github.io/esp-iot-framework/sensors/
-  - AWS: https://ece-iot.github.io/aws-iot-framework/aws/cli/configuration-basics/
+  - AWS: https://ece-iot.github.io/aws-iot-framework/aws/
   - Alexa: https://ece-iot.github.io/aws-iot-framework/alexa
 
 
