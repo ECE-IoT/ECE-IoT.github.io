@@ -7,7 +7,7 @@
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <link href="../../assets/logo.png" rel="icon"/>
 <meta content="mkdocs-1.2.3, mkdocs-material-8.1.4" name="generator"/>
-<title>Structure - IoT Framework</title>
+<title>AWS - IoT Framework</title>
 <link href="../../assets/stylesheets/main.bb3983ee.min.css" rel="stylesheet"/>
 <link href="../../assets/stylesheets/palette.e6a45f82.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -22,9 +22,6 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#structure">
-          Skip to content
-        </a>
 </div>
 <div data-md-component="announce">
 </div>
@@ -46,7 +43,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              Structure
+              AWS
             
           </span>
 </div>
@@ -188,8 +185,8 @@
           Setup
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_2_1" id="__nav_1_2_1" type="checkbox"/>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_2_1" id="__nav_1_2_1" type="checkbox"/>
 <label class="md-nav__link" for="__nav_1_2_1">
           Getting Started
           <span class="md-nav__icon md-icon"></span>
@@ -205,46 +202,19 @@
         ESP
       </a>
 </li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../setup_aws/">
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<a class="md-nav__link md-nav__link--active" href="./">
         AWS
       </a>
 </li>
 </ul>
 </nav>
 </li>
-<li class="md-nav__item md-nav__item--active">
-<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
-<label class="md-nav__link md-nav__link--active" for="__toc">
-          Structure
-          <span class="md-nav__icon md-icon"></span>
-</label>
-<a class="md-nav__link md-nav__link--active" href="./">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../structure/">
         Structure
       </a>
-<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
-<label class="md-nav__title" for="__toc">
-<span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#src">
-    /src
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#scripts">
-    /scripts
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#docs">
-    /docs
-  </a>
-</li>
-</ul>
-</nav>
 </li>
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_2_3" id="__nav_1_2_3" type="checkbox"/>
@@ -307,48 +277,12 @@
 </div>
 </div>
 </div>
-<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
-<div class="md-sidebar__scrollwrap">
-<div class="md-sidebar__inner">
-<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
-<label class="md-nav__title" for="__toc">
-<span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#src">
-    /src
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#scripts">
-    /scripts
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#docs">
-    /docs
-  </a>
-</li>
-</ul>
-</nav>
-</div>
-</div>
-</div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<a class="md-content__button md-icon" href="https://github.com/ECE-IoT/ECE-IoT.github.io/edit/master/docs/setup/structure.md" title="Edit this page">
+<a class="md-content__button md-icon" href="https://github.com/ECE-IoT/ECE-IoT.github.io/edit/master/docs/setup/setup_aws.md" title="Edit this page">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"></path></svg>
 </a>
-<h1 id="structure">Structure</h1>
-<p>This repository combines the source code, the documentation and the editor setup at once. Therefore it is crucial to understand the directories structure. The following <code>folders</code> are most likely to be changed by future developers:  </p>
-<h2 id="src">/src</h2>
-<p>Here all every line of <code>C++</code> code is put. Within this directory there are sub-folders in order to keep a tidy structure. When adding a new folder for a new structural element, give this folder a meaningful name. </p>
-<h2 id="scripts">/scripts</h2>
-<p>This folders intention is to store essential scripts which facilitate coding. Therefore all types of scripts can be put here (<code>python</code>, <code>shell</code> etc.).</p>
-<h2 id="docs">/docs</h2>
-<p>The <code>/docs</code> folder (like the name implies) stores every line of <code>markdown</code> code. In the future the intention of this project is to integrate a automatic doc generation tool like <a href="https://www.doxygen.nl/index.html">Doxygen</a>. Doxygen allows the developer to write <code>doc-strings</code> which can be compiled into readable <code>markdown</code> code.</p>
+<h1>AWS</h1>
 <hr/>
 <div class="md-source-file">
 <small>
@@ -368,7 +302,7 @@
 </main>
 <footer class="md-footer">
 <nav aria-label="Footer" class="md-footer__inner md-grid">
-<a aria-label="Previous: AWS" class="md-footer__link md-footer__link--prev" href="../setup_aws/" rel="prev">
+<a aria-label="Previous: ESP" class="md-footer__link md-footer__link--prev" href="../setup_esp/" rel="prev">
 <div class="md-footer__button md-icon">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"></path></svg>
 </div>
@@ -377,17 +311,17 @@
 <span class="md-footer__direction">
                 Previous
               </span>
-              AWS
+              ESP
             </div>
 </div>
 </a>
-<a aria-label="Next: C++" class="md-footer__link md-footer__link--next" href="../coding-style/cpp/" rel="next">
+<a aria-label="Next: Structure" class="md-footer__link md-footer__link--next" href="../structure/" rel="next">
 <div class="md-footer__title">
 <div class="md-ellipsis">
 <span class="md-footer__direction">
                 Next
               </span>
-              C++
+              Structure
             </div>
 </div>
 <div class="md-footer__button md-icon">
