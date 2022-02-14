@@ -22,7 +22,7 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#getting-started">
+<a class="md-skip" href="#getting-started-aws">
           Skip to content
         </a>
 </div>
@@ -236,6 +236,16 @@
     Introduction
   </a>
 </li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#setup-process">
+    Setup process
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#whats-inside-the-container">
+    What's inside the container?
+  </a>
+</li>
 </ul>
 </nav>
 </li>
@@ -336,6 +346,16 @@
     Introduction
   </a>
 </li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#setup-process">
+    Setup process
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#whats-inside-the-container">
+    What's inside the container?
+  </a>
+</li>
 </ul>
 </nav>
 </li>
@@ -346,16 +366,48 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<h1 id="getting-started">Getting started</h1>
+<h1 id="getting-started-aws">Getting started - AWS</h1>
 <h2 id="first-steps">First steps</h2>
+<p>The following sections describe the <strong>setup</strong> process for the <a href="https://github.com/ECE-IoT/aws-iot-framework">AWS IoT Framework</a> repository. For more information head over to:</p>
+<ul>
+<li><a href="https://ece-iot.github.io/aws-iot-framework/aws/cli/configuration-basics/">AWS</a></li>
+<li><a href="https://ece-iot.github.io/aws-iot-framework/alexa/">Alexa</a></li>
+</ul>
 <h3 id="introduction">Introduction</h3>
-<p>The setup for the <a href="https://github.com/ECE-IoT/aws-iot-framework/tree/master">AWS IoT Framework</a></p>
+<p>The setup for the <a href="https://github.com/ECE-IoT/aws-iot-framework/tree/master">AWS IoT Framework</a> is based around a <a href="https://www.docker.com/products/docker-desktop">Docker</a> image which builds a capable development environment. In addition this <strong>Docker</strong> image can directly be hooked to a <strong>VS Code</strong> project, which enables an automatic work-space creation. This functionality is made possible through the <a href="https://code.visualstudio.com/docs/remote/create-dev-container">Devcontainer</a> capabilities of <strong>VS Code</strong>. </p>
+<h3 id="setup-process">Setup process</h3>
+<ul>
+<li>Make sure that <a href="https://www.docker.com/products/docker-desktop">Docker Desktop</a> is installed on your system </li>
+<li>This repository is built around <a href="https://code.visualstudio.com/Download">VS Code</a> therefore make sure that it's installed on your system.</li>
+<li>Clone this repository and open it with <strong>VS Code</strong><ul>
+<li>Make sure that <strong>Docker Desktop</strong> is running </li>
+<li><strong>VS Code</strong> should automatically detect that this repository contains a <strong>Dockerfile</strong> and launches the <strong>Docker container</strong> via the running <strong>Docker Desktop</strong> instance.</li>
+</ul>
+</li>
+</ul>
+<h3 id="whats-inside-the-container">What's inside the container?</h3>
+<p>The image contains a fully capable <a href="https://hub.docker.com/_/debian/">Linux Debian</a> distribution which has all the essential build tools for <code>C++</code> and <code>Python 3.9</code> pre-installed. In addition the stock <a href="https://www.gnu.org/software/bash/">BASH</a> is replaced by a <a href="https://www.zsh.org">ZSH</a>. The <strong>ZSH</strong> is then configured with the <a href="https://ohmyz.sh">Oh My Zsh</a> framework which enables a highly customizable shell environment. </p>
+<p>Next the <strong>Dockerfile</strong> installs all necessary requirements for the development of <a href="https://aws.amazon.com/de/lambda/">AWS Lambdas</a> and other <code>Python</code> projects. The following modules are going to be installed: </p>
+<ul>
+<li><a href="https://pypi.org/project/boto3/">boto3</a></li>
+<li><a href="https://pypi.org/project/awscli/">awscli</a></li>
+<li><a href="https://pypi.org/project/aws-sam-cli/">aws-sam-cli</a></li>
+<li><a href="https://pypi.org/project/cfn-lint/">cfn-lint</a></li>
+<li><a href="https://pypi.org/project/pandas/">pandas</a></li>
+<li><a href="https://pypi.org/project/matplotlib/">matplotlib</a></li>
+<li><a href="https://pypi.org/project/mkdocs-material/">mkdocs-material</a></li>
+<li><a href="https://pypi.org/project/mkdocs-mermaid-plugin/">mkdocs-plugin-mermaid</a></li>
+<li><a href="https://pypi.org/project/mkdocs-pymdownx-material-extras/">mkdocs_pymdownx_material_extras</a></li>
+<li><a href="https://pypi.org/project/mkdocs-git-revision-date-plugin/">mkdocs-git-revision-date-plugin</a></li>
+<li><a href="https://pypi.org/project/mkdocstrings/">mkdocstrings</a></li>
+</ul>
+<p>Last but not least the <code>devconatainer.json</code> settings and extensions are executed in order to install all necessary <strong>VS Code extensions</strong> within the <strong>Devcontainer</strong>. </p>
 <hr/>
 <div class="md-source-file">
 <small>
     
       Last update:
-      2022-02-13
+      2022-02-14
     
   </small>
 </div>
