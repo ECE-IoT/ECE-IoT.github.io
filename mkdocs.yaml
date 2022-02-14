@@ -13,11 +13,10 @@ nav:
           Git: setup/coding-style/git.md
         Documentation: setup/documentation.md
   - Core: https://ece-iot.github.io/esp-iot-framework/core/
-  - Sensors: https://ece-iot.github.io/esp-iot-framework/sensors/
+  - Sensors: https://ece-iot.github.io/esp-iot-framework/sensors/introduction/
   - AWS: https://ece-iot.github.io/aws-iot-framework/aws/cli/configuration-basics/
   - Alexa: https://ece-iot.github.io/aws-iot-framework/alexa/
-  - Hardware: https://ece-iot.github.io/hardware/
-
+  - Hardware: https://ece-iot.github.io/hardware/hardware/description/
 
 repo_url: https://ece-iot.github.io
 

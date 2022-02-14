@@ -1,6 +1,11 @@
-# Getting started
+# Getting started - ESP
 
 ## First steps
+
+The following sections describe the **setup** process for the [ESP IoT Framework](https://github.com/ECE-IoT/esp-iot-framework) repository. For more information head over to:
+
+* [Core](https://ece-iot.github.io/esp-iot-framework/core/)
+* [Sensors](https://ece-iot.github.io/esp-iot-framework/sensors/introduction/)
 
 ### Requirements
 

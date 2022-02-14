@@ -1,6 +1,13 @@
-# ESP IoT Framework
+# IoT Framework
 
-This frameworks intention is to simplify the development of ESP32 IoT Devices, which interact with AWS Services. In addition its intentions is to simplify the development of back-end applications based on AWS Lamda functions
+This frameworks intention is to simplify the development of ESP32 IoT Devices, which interact with AWS Services. In addition its intentions is to simplify the development of back-end applications based on AWS Lambda functions. The project **IoT Framework** consists of the following repositories: 
+
+* [ESP IoT Framework](https://github.com/ECE-IoT/esp-iot-framework)
+* [AWS IoT Framework](https://github.com/ECE-IoT/aws-iot-framework)
+* [Grafana Setup for RaspberryPi](https://github.com/ECE-IoT/grafana-iot)
+* [Hardware (PCB and Case)](https://github.com/ECE-IoT/hardware)
+
+Every repository has its own docs which are all collected in this landing-page.
 
 ## Motivation
 
